@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# Database 
+database/canteen.db
+
+# Exported files
+*.xlsx
+
+# OS files
+.DS_Store
+Thumbs.db
+
+
+# Run once file
+admin-generation.py
