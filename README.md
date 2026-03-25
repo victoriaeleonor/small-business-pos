@@ -1,6 +1,6 @@
 # Canteen Inventory & Sales Management System
 
-A desktop application built with **Python** and **Tkinter** for managing the inventory, sales, and customer relationships of a university canteen. Developed as a final project for the Object-Oriented Programming course at Universidad Politécnica Taiwán-Paraguay.
+A desktop application built with **Python** and **Tkinter** for managing the inventory, sales, and customer relationships of a university (small) canteen. Developed as the final project for the Object-Oriented Programming course at Universidad Politécnica Taiwán-Paraguay (2024).
 
 ---
 
@@ -8,7 +8,7 @@ A desktop application built with **Python** and **Tkinter** for managing the inv
 
 | Login | Main Menu |
 |---|---|
-| ![Login](assets/screenshots/login.png) | ![Menu](assets/screenshots/menu.png) |
+| ![Login](assets/screenshots/login.png) | ![Menu](assets/screenshots/main_menu.png) |
 
 ---
 
@@ -28,7 +28,7 @@ A desktop application built with **Python** and **Tkinter** for managing the inv
 | Technology | Purpose |
 |---|---|
 | Python 3.11+ | Core language |
-| Tkinter | GUI framework |
+| Tkinter | GUI |
 | SQLite3 | Local database (built-in) |
 | tkcalendar | Date picker widget |
 | openpyxl | Excel file generation |
@@ -79,13 +79,13 @@ canteen-management-system/
 git clone https://github.com/your-username/canteen-management-system.git
 cd canteen-management-system
 
-# 2. (Recommended) Create a virtual environment based on your OS and 
+# 2. (Recommended) Create a virtual environment based on your OS  
 
 # 3. Install dependencies
 pip install -r requirements.txt
 
 # 4. Run the application
-cd src
+cd src  #make sure you are in the src folder 
 python main.py
 ```
 
